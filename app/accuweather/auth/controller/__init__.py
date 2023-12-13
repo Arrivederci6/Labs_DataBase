@@ -1,0 +1,22 @@
+from accuweather.auth.controller.orders.air_quality_controller import AirQualityController
+from accuweather.auth.controller.orders.city_controller import CityController
+from accuweather.auth.controller.orders.country_controller import CountryController
+from accuweather.auth.controller.orders.region_controller import RegionController
+from accuweather.auth.controller.orders.water_temperature_controller import WaterTemperatureController
+from accuweather.auth.controller.orders.weather_cataclysm_warning_controller import \
+    WeatherCataclysmWarningController
+from accuweather.auth.controller.orders.weather_controller import WeatherController
+from accuweather.auth.controller.orders.weather_forecast_controller import WeatherForecastController
+from accuweather.auth.controller.orders.weather_forecast_daily_controller import WeatherForecastDailyController
+from accuweather.auth.controller.orders.weather_forecast_hourly_controller import WeatherForecastHourlyController
+
+air_quality_controller = AirQualityController()
+city_controller = CityController()
+country_controller = CountryController()
+region_controller = RegionController()
+water_temperature_controller = WaterTemperatureController()
+weather_cataclysm_warning_controller = WeatherCataclysmWarningController()
+weather_controller = WeatherController()
+weather_forecast_controller = WeatherForecastController()
+weather_forecast_daily_controller = WeatherForecastDailyController()
+weather_forecast_hourly_controller = WeatherForecastHourlyController()
